@@ -1,9 +1,9 @@
 # Write your code here.
-def line (array)
-  if array.length == 0
+def line (katz_deli)
+  if katz_deli.length == 0
     puts "The line is currently empty."
-  else array.lenth >= 1
-    puts array
+  else katz_deli.lenth >= 1
+    puts katz_deli
   end
 end
 
