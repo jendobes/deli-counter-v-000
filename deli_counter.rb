@@ -4,7 +4,7 @@ def line (katz_deli)
     puts "The line is currently empty."
   else katz_deli.length >= 1
     constant = "The line is currently:"
-    number = katz_deli.each_with_index {|name, index| puts "#{index+1}. #{name}"}
+    number = katz_deli.each_with_index {|name, index| constant << "#{index+1}. #{name}"}
     puts constant
   end
 end
