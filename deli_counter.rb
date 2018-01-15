@@ -8,7 +8,8 @@ def line (katz_deli)
 end
 
 def take_a_number (katz_deli, name)
-  puts "Welcome #{name}, you are number #{katz_deli.index(name)} in line."
+  number = katz_deli.index(name)+1
+  puts "Welcome, #{name}. You are number #{number} in line."
 end
 
 def now_serving (argument)
