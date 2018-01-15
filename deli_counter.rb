@@ -1,6 +1,6 @@
 # Write your code here.
 def line (katz_deli)
-  number = katz_deli.each_with_index {|name, index| puts index+1 name end}
+  number = katz_deli.each_with_index {|name, index| puts "#{index+1}. #{name}"}
   if katz_deli.length == 0
     puts "The line is currently empty."
   else katz_deli.length >= 1
