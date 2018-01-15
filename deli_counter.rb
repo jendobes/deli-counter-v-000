@@ -17,6 +17,6 @@ def now_serving (katz_deli)
     puts "There is nobody waiting to be served!"
   else katz_deli.length >= 1
     puts "Currently serving #{katz_deli.first}."
-    katz_deli.delete(katz_deli.first)  
+    katz_deli.delete(katz_deli.first)
 end
 end
